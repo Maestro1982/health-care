@@ -5,7 +5,7 @@ import { Button, Navbar } from '@nextui-org/react';
 
 const Header = () => {
   return (
-    <Navbar variant='sticky' className='max-w-7xl'>
+    <Navbar variant='sticky' className='mx-auto'>
       <Navbar.Brand>
         <Logo />
       </Navbar.Brand>

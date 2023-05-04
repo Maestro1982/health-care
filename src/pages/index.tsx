@@ -1,3 +1,4 @@
+import Footer from '@/components/footer/Footer';
 import Jumbotron from '@/components/jumbotron/Jumbotron';
 import Header from '@/components/navbar/Header';
 import { Container } from '@nextui-org/react';
@@ -7,6 +8,7 @@ export default function Home() {
     <Container>
       <Header />
       <Jumbotron />
+      <Footer />
     </Container>
   );
 }
